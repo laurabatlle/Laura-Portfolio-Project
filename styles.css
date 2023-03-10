@@ -36,6 +36,7 @@ font-family: 'Lora', serif;*/
 }
 .btn-branding {
   background: var(--branding-color);
+  font-family: var(--default-font-family);
   border-radius: 4px;
   color: black;
   font-size: 18px;
