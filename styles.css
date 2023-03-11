@@ -49,6 +49,7 @@ font-family: 'Lora', serif;*/
 
 .btn-branding:hover {
   color: white;
+  border: 1px solid var(--branding-color);
 }
 
 h1,
@@ -63,4 +64,44 @@ p {
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+.btn-branding-outline {
+  font-family: var(--default-font-family);
+  color: gray;
+  border-radius: 4px;
+  border: 1px solid var(--branding-color);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out;
+}
+
+.project-description {
+  padding: 120px, 60px;
+}
+
+@media (max-width: 960px) {
+  .hero h1 {
+    font-size: 48px;
+  }
+  .hero h2 {
+    font-size: 18px;
+  }
+  .project-description {
+    padding: 0px;
+    text-align: center;
+  }
+  .project-description h2 {
+    font-size: 45px;
+  }
+}
+
+img {
+  background-color: #e0fbf2;
 }
