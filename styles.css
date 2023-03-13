@@ -70,6 +70,9 @@ p {
 h2 {
   font-size: 45px;
 }
+h4 {
+  font-size: 48px;
+}
 
 .btn-branding-outline {
   font-family: var(--default-font-family);
@@ -85,22 +88,6 @@ h2 {
 
 .project-description {
   padding: 120px, 60px;
-}
-
-@media (max-width: 960px) {
-  .hero h1 {
-    font-size: 48px;
-  }
-  .hero h2 {
-    font-size: 18px;
-  }
-  .project-description {
-    padding: 0px;
-    text-align: center;
-  }
-  .project-description h2 {
-    font-size: 45px;
-  }
 }
 
 .content-container container {
@@ -131,22 +118,6 @@ h2 {
   margin: 30px;
 }
 
-@media (min-width: 992px) {
-  .col-lg-6 {
-    flex: 0 0 auto;
-    width: 50%;
-  }
-}
-
-@media (max-width: 900px) {
-  .content {
-    text-align: center;
-  }
-}
-
-element.style {
-}
-
 .navbar-nav .nav-link.active {
   color: #fb049c;
 }
@@ -172,6 +143,14 @@ footer .email-link {
   font-size: 24px;
 }
 
+footer .email-link:hover {
+  color: #fb049c;
+}
+
+footer .contact-box {
+  margin: 0;
+}
+
 footer .social-links a {
   margin: 0 20px;
   color: black;
@@ -180,4 +159,40 @@ footer .social-links a {
   border-radius: 50%;
   font-size: 18px;
   transition: all 100ms ease-in-out;
+}
+
+footer .social-links:hover a {
+  color: white;
+  background: #fb049c;
+}
+
+@media (max-width: 960px) {
+  .hero h1 {
+    font-size: 48px;
+  }
+  .hero h2 {
+    font-size: 18px;
+  }
+  .project-description {
+    padding: 0px;
+    text-align: center;
+  }
+  .project-description h2 {
+    font-size: 45px;
+  }
+  h4 {
+    font-size: 26px;
+  }
+}
+@media (min-width: 992px) {
+  .col-lg-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+}
+
+@media (max-width: 900px) {
+  .content {
+    text-align: center;
+  }
 }
