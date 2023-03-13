@@ -48,7 +48,7 @@ font-family: 'Lora', serif;*/
 }
 
 .btn-branding:hover {
-  color: white;
+  color: black;
   border: 1px solid var(--branding-color);
 }
 
@@ -142,4 +142,14 @@ h2 {
   .content {
     text-align: center;
   }
+}
+
+element.style {
+}
+
+.navbar-nav .nav-link.active {
+  color: #fb049c;
+}
+.navbar-brand {
+  margin-left: 20px;
 }
